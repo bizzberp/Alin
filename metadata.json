@@ -1,0 +1,6 @@
+{
+  "name": "Messi vs Ronaldo: Penalty Showdown",
+  "description": "An interactive football penalty shootout showdown between Lionel Messi and Cristiano Ronaldo, featuring realistic mechanics, kit and club customization, sudden death, and trophy celebration ceremony.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

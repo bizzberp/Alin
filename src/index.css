@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Teko', 'Montserrat', sans-serif;
+    letter-spacing: 0.05em;
+  }
+}
+
+/* Custom glow and stadium lighting helpers */
+.stadium-glow {
+  box-shadow: 0 0 50px -10px rgba(56, 189, 248, 0.25);
+}
+
+.stadium-glow-gold {
+  box-shadow: 0 0 60px -10px rgba(234, 179, 8, 0.35);
+}
+
+@keyframes floodlight-pulse {
+  0%, 100% { opacity: 0.65; }
+  50% { opacity: 0.9; }
+}
+
+.animate-floodlight {
+  animation: floodlight-pulse 4s ease-in-out infinite;
+}
